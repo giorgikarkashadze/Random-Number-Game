@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vina Sans', sans-serif;
+}
+body{
+    background: rgba(29, 31, 41, 0.91);
+}
+.header{
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 100px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 250px;
+    border: 8px solid gray;
+    font-size: 50px;
+}
+.question{
+    position: absolute;
+}
+.input{
+    width: 150px;
+    height: 30px;
+    margin: 120px 2px;
+    font-size: 30px;
+}
+.submitBtn{
+    width: 50px;
+    height: 30px;
+    margin: 120px 2px;
+    font-size: large;
+    background: wheat;
+    cursor: pointer;
+}
+.notification{
+    text-align: center;
+    margin: 50px;
+}
